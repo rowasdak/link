@@ -27,6 +27,21 @@ body {
     }
 }
 
+  .custombg-img::after {
+        background-image: url(https://www.kemendag.go.id/assets/imgs/part/about.png);
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0;   
+        right:0;
+        left: 0;
+        bottom: 0;
+        width: 100%;      
+        z-index:-3; /* needed to keep in the background */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }      
+
 .logo {
     width: 110px;
     height: 110px;
